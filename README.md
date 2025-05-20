@@ -4,8 +4,7 @@ Este es un proyecto básico creado para aprender a usar GitHub en equipo.
 
 ## Integrantes del equipo
 - Hernán
-- [Nombre 2]
-- [Nombre 3]
+- David
 
 ## Historias de Usuario
 1. Como visitante quiero ver la presentación del equipo para conocer quiénes participan.
