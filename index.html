@@ -2,11 +2,93 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Equipo de Trabajo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Proyecto de Equipo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        form input, form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+    </style>
 </head>
 <body>
+
     <h1>Bienvenidos</h1>
     <p>Este proyecto fue realizado por el equipo de GitHub para la actividad académica.</p>
+
+    <section>
+        <h2>Equipo de Trabajo</h2>
+        <p>Juan Pérez, María Gómez, Carlos Ruiz, etc.</p>
+    </section>
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required><br>
+            <input type="email" placeholder="Tu correo" required><br>
+            <textarea placeholder="Escribe tu mensaje aquí..." required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Galería de Imágenes</h2>
+        <img src="https://via.placeholder.com/150" alt="Imagen 1">
+        <img src="https://via.placeholder.com/150" alt="Imagen 2">
+        <img src="https://via.placeholder.com/150" alt="Imagen 3">
+    </section>
+
+    <section>
+        <h2>Tabla de Actividades</h2>
+        <table>
+            <tr>
+                <th>Actividad</th>
+                <th>Fecha</th>
+                <th>Responsable</th>
+            </tr>
+            <tr>
+                <td>Inicio del proyecto</td>
+                <td>2025-05-19</td>
+                <td>Juan</td>
+            </tr>
+            <tr>
+                <td>Diseño de estructura</td>
+                <td>2025-05-20</td>
+                <td>María</td>
+            </tr>
+            <tr>
+                <td>Entrega final</td>
+                <td>2025-05-25</td>
+                <td>Carlos</td>
+            </tr>
+        </table>
+    </section>
+
 </body>
 </html>
