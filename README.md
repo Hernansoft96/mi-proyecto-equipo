@@ -14,4 +14,4 @@ Este es un proyecto básico creado para aprender a usar GitHub en equipo.
 5. Como administrador quiero subir el sitio a GitHub Pages.
 
 ## Enlace al repositorio
-[https://github.com/usuario/mi-proyecto-equipo](https://github.com/usuario/mi-proyecto-equipo)
+https://github.com/Hernansoft96/mi-proyecto-equipo 
